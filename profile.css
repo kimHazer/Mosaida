@@ -1,0 +1,321 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-image: radial-gradient(rgba(78,41,170,100), rgba(30,18,61,100));
+    color: white;
+}
+
+/* Overlay styles */
+/*.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    /*display: none; /* Hidden by default */
+   /* z-index: 1000;  Ensures it is on top of other content 
+}*/
+
+.profile-header {
+    width: 100%; 
+    height: 260px;
+    top: 0;
+    background-image: radial-gradient(rgba(88,134,178,100), rgba(27,72,113,100));
+    color: white; 
+    padding: 20px 0; 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    background-image: radial-gradient(rgba(78,41,170,100), rgba(30,18,61,100));
+    border-radius: 20px;
+    margin-top: -30%;
+}
+
+/*------------------Center Icon----------------*/
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(rgba(78,41,170,100), rgba(30,18,61,100));
+    border-radius: 100px;
+    margin-top: -250px;
+    align-items: center;
+    position: absolute;
+}
+.logo img{
+    width: 100px;
+    align-items: center;
+}
+
+
+
+
+
+/*------------------User/ Work Info Fields----------------*/
+
+.user-info  {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.work-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+}
+/*------------------User Info----------------*/
+
+.age{
+    background-image: radial-gradient(rgba(16,119,210,100), rgba(9,49,83,100));
+    margin-top: 0px;
+    padding: 6px;
+    border-radius: 10px;
+    width: 100px;
+}
+.gender{
+    background-image: radial-gradient(rgba(16,119,210,100), rgba(9,49,83,100));
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    text-align: left;
+    width: 130px;
+}
+.family{
+    background-image: radial-gradient(rgba(16,119,210,100), rgba(9,49,83,100));
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    text-align: left;
+    width: 160px;
+}
+.children{
+    background-image: radial-gradient(rgba(16,119,210,100), rgba(9,49,83,100));
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    text-align: left;
+    width: 180px;
+}
+
+/*------------------Work Info----------------*/
+
+
+.location{
+    background-image: radial-gradient(rgba(16,119,210,100), rgba(9,49,83,100));
+    margin-top: 0px;
+    padding: 6px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: right;
+    align-items: flex-end;
+}
+.join-date{
+    background-image: radial-gradient(rgba(16,119,210,100), rgba(9,49,83,100));
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    width: 130px;
+    text-align: right;
+    align-items: right;
+
+}
+.department{
+    background-image: radial-gradient(rgba(16,119,210,100), rgba(9,49,83,100));
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    width: 160px;
+    text-align: right;
+    align-items: right;
+}
+.employment-type{
+    background-image: radial-gradient(rgba(16,119,210,100), rgba(9,49,83,100));
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: right;
+}
+
+
+/*------------------Categories Feilds----------------*/
+
+
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.section {
+    width: 250px;
+    height: 400px;
+    background-image: radial-gradient(rgba(78,41,170,100), rgba(30,18,61,100));
+    margin: 30px 15px 0px 15px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+h2{
+    transform: translateY(-30px);
+}
+#active-life {
+    transform: translateY(100px);
+}
+
+/*-------------Categories Icons-------------*/
+
+.icon-work {
+    font-size: 130px;
+    font-family: fonAwesome;
+    color: #4d5266;
+    content: '\f0b1';
+}
+
+.icon-active {
+    font-size: 130px;
+    font-family: fonAwesome;
+    color: #4d5266;
+    content: '\e52f';
+    
+}
+.icon-social {
+    font-size: 130px;
+    font-family: fonAwesome;
+    color: #4d5266;
+    content: '\f0c0';
+}
+
+/*-------------Categories Buttons-------------*/
+button {
+    width: 160px;
+    height: 40px;
+    margin-top: 100px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: transparent;
+    border-color:#b4a7d6; 
+    color: #fff;    
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+button:hover {
+    background-image: linear-gradient(rgba(118,103,159,100), rgba(53,28,117,100));
+
+    
+}
+
+
+/*-------------------Edit Box-------------------*/
+
+.hidden {
+    width: 40%;
+    height: 60%;
+    background-color: #666;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: transparent;
+    display: none;
+    z-index: 1000;
+    background-image: #66
+    transparent;
+}
+
+
+
+.editBox {
+    position: fixed;
+    width: 50%; /* Adjust size as needed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the box */
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for depth */
+    z-index: 1001; /* Above the overlay */
+    display: none; /* Hidden by default */
+}
+
+
+
+/*-------------------Sidebar-------------------*/
+
+.sidebar {
+    background-color: transparent; 
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50px; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*----------------Hamburger Menu Icon--------------- */
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30px; /* Height of the menu icon */
+    margin: 20px 5px 0px 0px; /* Adjust as needed */
+}
+
+.menu-icon span {
+    display: block;
+    width: 35px; /* Width of each stripe */
+    height: 4px; /* Height of each stripe */
+    background-color: white;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.menu-icon:hover span {
+    background-color: #ccc; /* Color change on hover */
+}
+

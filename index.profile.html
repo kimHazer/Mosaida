@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile Page</title>
+    <link rel="stylesheet" href="profile.css">
+    <script src="https://kit.fontawesome.com/18e5070833.js""></script>
+</head>
+<body>
+    <div class="modal-overlay"></div>
+    <header class="profile-header">
+  
+        </header>
+    <div class="sidebar">
+        <!-- Hamburger menu icon -->
+        <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="profile-info">
+            <div class="user-info"> <!-- User Info -->
+                <span class="age">42 yo</span>
+                <span class="gender">Male</span>
+                <span class="family">Married</span>
+                <span class="children">2 Kids < 18</span>
+            </div>
+            <div class="logo"><img src= "Clover.png"></div>
+            <div class="work-info">     <!-- Work Info -->
+                <span class="location">Turku</span>
+                <span class="join-date">Since 2008</span>
+                <span class="department">Administration</span>
+                <span class="employment-type">Full-time Permanent</span>
+            </div>
+        </div>
+        <div class="profile">           <!-- Categories -->
+            <div class="section" id="work-life">
+                <div class="icon-work"><i class="fa-solid fa-briefcase"></i></div>
+
+                <h2>Work Life</h2>
+                <button id="editWork">Edit</button>
+            </div>
+            <div id="editBoxWork" class="hidden">
+                <button id="backBtnWork">&#x2190; Back</button>
+                <h2>Edit Work Life</h2>
+                <textarea id="infoAreaWork">Initial work life information...</textarea>
+                <button id="saveBtnWork">Save</button>
+            </div>
+
+
+
+            <div class="section" id="active-life">
+                <div class="icon-active"><i class="fa-solid fa-mountain-sun"></i></div>
+                <h2>Active Life</h2>
+                <button id="editActive">Edit</button>
+            </div>
+            <div id="editBoxActive" class="hidden">
+                <button id="backBtnActive">&#x2190; Back</button>
+                
+                <h2>Edit Active Life</h2>
+                <textarea id="infoAreaActive">Initial active life information...</textarea>
+                <button id="saveBtnActive">Save</button>
+
+            </div>
+
+            <div class="section" id="social-life">
+                <div class="icon-social"><i class="fa-solid fa-users"></i></div>
+                <h2>Social Life</h2>
+                <button id="editSocial">Edit</button>
+            </div>
+            <div id="editBoxSocial" class="hidden">
+                <button id="backBtnSocial">&#x2190; Back</button>
+                <h2>Edit Social Life</h2>
+                <textarea id="infoAreaSocial">Initial social life information...</textarea>
+                <button id="saveBtnSocial">Save</button>
+            </div>
+        </div>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>
